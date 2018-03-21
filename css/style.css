@@ -1,0 +1,251 @@
+
+body{
+font-family: "Montserrat", sans-serif;
+	color:#60606e;
+}
+
+/* Layout */
+.ba-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+header{
+	background: url("../akadabout-us-assets/background.png");
+	background-size: cover;
+	padding-bottom: 7%;
+}
+
+header .ba-grid > [class*="ba-width-"]{
+	
+	padding: 30px 30px 0 30px;
+
+}
+
+
+header .ba-grid .about{
+font-size: 36px;
+}
+
+header .ba-grid a{
+	text-decoration: none;
+	color:#60606e;
+	margin: 0 6px;
+	font-size: 14px;
+}
+
+.ba-grid.ba-grid--nopad.ba-margin-top{
+
+	margin-top: 7%;
+
+}
+
+footer{
+	background-color: #7beec7;
+	padding-top:3%; 
+	margin-top:2%;
+	padding-bottom: 3%;
+}
+
+.ba-form{
+	background-color: white;
+	padding: 2% 3%;
+	font-size: 0;
+	overflow: auto;
+}
+
+h1.ba-footer-left{
+	color: white;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+
+button.ba-footer-left{
+	border:none;
+	background-color: white;
+	color: #7beec7;
+	padding: 2% 3%;
+	font-weight: 800;
+}
+
+
+h2.ba-footer-right{
+	font-size: 24px;
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  width: 75%;
+  overflow: wrap;
+  margin:0;
+
+}
+
+
+p.ba-footer-right{
+ font-size: 14px;
+  font-family: "OpenSans",sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.5;
+
+}
+
+
+input.ba-footer-right {
+  padding: 3% 3%;
+  margin-right: 0;
+  font-size: 12px;
+  color: rgb(205, 205, 205);
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #e5e5e5;
+  width: 70%;
+}
+
+button.ba-footer-right {
+  margin-left: 0;
+  padding: 3% 8%;
+  color: white;
+  background: #7beec7;
+  border: none;
+  font-size: 12px;
+}
+
+.ba-inside-text{
+
+	font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb(96, 96, 110);
+  line-height: 2.143;
+
+
+}
+
+
+span{
+	display: block;
+	font-size: 14px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb(96, 96, 110);
+  text-transform: uppercase;
+	margin-bottom: 2%;
+	font-weight:800 ;
+}
+
+
+
+.ba-green{
+	background: url("../akadabout-us-assets/green.png") no-repeat;
+	background-position: bottom left;
+	padding: 0.5% 0.5%;
+	display: inline-block;
+}
+
+
+.ba-icon{
+	background: url("../akadabout-us-assets/bg.png");
+	display: inline-block;
+	justify-content:center;
+	align-items:center;
+	width:30px;
+	height:30px;
+	margin-right: 4%;
+}
+
+img.ba-icon{
+	display: block;
+	margin: auto;
+	width: 60%;
+	height: 60%;
+	margin-top: 20%;
+
+}
+
+
+img.first{
+	display: block;
+	margin: auto;
+	width: 40%;
+	height: 70%;
+	margin-top: 15%;
+}
+
+img.second{
+	display: block;
+	margin: auto;
+	width: 70%;
+	height: 40%;
+	margin-top: 30%;
+}
+
+
+span.ba-span{
+	display: inline;
+
+font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(96, 96, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.ba-margin-bottom1{
+
+	margin-bottom: 10%;
+
+}
+
+
+.ba-margin-bottom2{
+
+	margin-bottom: 7%;
+
+}
